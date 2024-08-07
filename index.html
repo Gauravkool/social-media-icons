@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fixed social media icons</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+      }
+      .bg-color {
+        background: linear-gradient(
+          45deg,
+          rgba(245, 177, 177, 0.8),
+          rgba(139, 135, 135, 0.8)
+        );
+        height: 100vh;
+        width: 100%;
+      }
+      .social-media--icons {
+        position: fixed;
+        bottom: 88px;
+        left: 18px;
+        display:flex;
+        flex-direction:column;
+        /* margin-bottom:8px; */
+      }
+      .social-media--icons a i{
+        font-size: 22px;
+        background-color: #fff;
+        width: 35px;
+        height: 35px;
+        text-align: center;
+        align-content: center;
+        border-radius: 50%;
+      }
+      .social-media--icons .bg{
+        background: rgb(116, 93, 93);
+        margin-bottom: 2px;
+        padding: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bg-color">
+      <div class="social-media--icons">
+        <a href="#" class="facebook bg"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" class="instagram bg"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="#" class="youtube bg"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+  </body>
+</html>
